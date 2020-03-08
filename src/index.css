@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Rye&display=swap");
+body,
+html {
+	margin: 0;
+	padding: 0;
+	background: green;
+}
+h1,
+h2 {
+	font-family: Rye;
+	font-weight: 100;
+}
