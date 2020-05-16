@@ -21,7 +21,7 @@ const Wrapper = styled.div`
 const gameStateMock = {
 	house: [
 		{ suit: null, value: null },
-		{ suit: "Hearts", value: "King" }
+		{ suit: "Hearts", value: "Jack" }
 	],
 	player: [
 		{ suit: "Spades", value: "Queen" },
@@ -47,6 +47,8 @@ const getValue = card => {
 		case "Queen":
 		case "Jack":
 			return 10;
+		case "Ace":
+			return 1;
 		case null:
 			return 0;
 		default:
